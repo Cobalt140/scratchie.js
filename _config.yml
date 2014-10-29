@@ -1,0 +1,14 @@
+# Dependencies
+markdown: kramdown
+
+# Custom vars
+project_name: scratchcard.js
+current_version: 0.0.0
+repository_url: https://github.com/andreruffert/scratchcard.js
+
+exclude:
+- "Gemfile"
+- "README.md"
+
+sass:
+    style: :compressed
