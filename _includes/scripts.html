@@ -2,6 +2,7 @@
 <script>
     (function() {
         var scratchcard = new Scratchcard('[data-provide=scratchcard]', {
+            brush: './assets/images/brush.png',
             onRenderEnd: function() {
                 // Show the secret when canvas is rendered.
                 this.element.querySelectorAll('.scratchcard__secret')[0].style.visibility = 'visible';
