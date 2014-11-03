@@ -1,6 +1,6 @@
-# Scratchcard.js
+# Scratchie.js
 
-This is the source for [andreruffert.github.io/scratchcard.js](http://andreruffert.github.io/scratchcard.js/)
+This is the source for [andreruffert.github.io/scratchie.js](http://andreruffert.github.io/scratchie.js/)
 
 ## Running site locally
     jekyll serve --watch

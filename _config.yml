@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # Custom vars
-project_name: scratchcard.js
+project_name: scratchie.js
 current_version: 0.0.0
-repository_url: https://github.com/andreruffert/scratchcard.js
+repository_url: https://github.com/andreruffert/scratchie.js
 
 exclude:
 - "Gemfile"

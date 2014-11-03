@@ -1,20 +1,18 @@
-<script src="./assets/scratchcard.js/scratchcard.js"></script>
+<script src="./assets/scratchie.js/scratchie.js"></script>
 <script>
     (function() {
-        var scratchcard = new Scratchcard('[data-provide=scratchcard]', {
+        var scratchie = new Scratchie('[data-scratchie]', {
             brush: './assets/images/brush.png',
             onRenderEnd: function() {
                 // Show the secret when canvas is rendered.
-                this.element.querySelectorAll('.scratchcard__secret')[0].style.visibility = 'visible';
+                this.element.querySelectorAll('.scratchie__secret')[0].style.visibility = 'visible';
             },
             onScratchMove: function(filledInPixels) {
                 //console.log(filledInPixels + '%');
             }
         });
 
-        scratchcard.render('image', './assets/images/cover1.png');
-
         // Global expose
-        window.scratchcard = scratchcard;
+        window.scratchie = scratchie;
     })();
 </script>
